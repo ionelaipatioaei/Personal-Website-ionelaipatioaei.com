@@ -6,6 +6,11 @@ html, body {
     font-size: 1.2em !important;
 }
 
+.container {
+    width: 80%;
+    margin: auto;
+}
+
 .nav-container {
     width: 80%;
     margin: auto;
@@ -21,7 +26,11 @@ html, body {
 }
 
 .current {
-    /* TODO */
+    box-shadow: 7px 7px 10px rgba(0, 201, 255, 0.2) !important;
+}
+
+.current:hover {
+    box-shadow: 3px 3px 8px rgba(0, 201, 255, 0.3) !important;
 }
 
 navbar {
@@ -90,4 +99,56 @@ navbar li:hover {
     color: #fff;
     margin: 0;
     padding-top: 100px;
+}
+
+.skill-card {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-card-title {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 40%;
+}
+
+.skill-card-body {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.skills-title {
+    text-align: center;
+    font-weight: 300;
+    color: #00c9ff;
+    font-size: 2em;
+}
+
+.skill-title {
+    font-weight: 300;
+    color: #00c9ff;
+    margin: 0.2em;
+}
+
+.skill-text {
+    color: #aaa;
+    font-weight: 300;
+    font-size: 0.9em;
+}
+
+.showcase {
+    border-radius: 50%;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.1), -1px -1px 10px rgba(0, 0, 0, 0.1);
+    padding: 0.5em;
+}
+
+.showcase-img {
+    width: 49%;
+    box-shadow: 12px 12px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 0.3em;
 }
