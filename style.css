@@ -124,12 +124,13 @@ navbar li:hover {
     justify-content: space-between;
 }
 
-.skill-rotate {
+.skill-reverse {
     flex-direction: row-reverse;
 }
 
 .skill-card-desc {
     width: 40%;
+    margin: 0.75em;
 }
 
 .skill-title-group {
@@ -146,7 +147,7 @@ navbar li:hover {
 .skill-title {
     font-weight: 300;
     /* color: #00c9ff; */
-    margin: 0.2em;
+    margin: 0.5em;
 }
 
 .skill-text {
@@ -159,11 +160,11 @@ navbar li:hover {
     width: 60%;
     display: flex;
     align-items: center;
+    margin: 1em;
 }
 
 .skill-img {
     width: 100%;
-    margin: 16px;
 }
 
 /* SKILL COLORS */
