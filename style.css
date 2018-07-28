@@ -88,10 +88,71 @@ navbar li:hover {
     box-shadow: 3px 3px 8px rgba(0, 201, 255, 0.3) !important;
 }
 /* END OF NAVBAR STYLE */
+
+/* FOOTER STYLE */
+footer {
+    margin-bottom: 0.5em;
+}
+
+.footer-line {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.footer-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo p {
+    color: #aaa;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+}
+
+.footer-links a {
+    color: #000;
+}
+
+.footer-links img {
+    height: 48px;
+    border-radius: 50%;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.2);
+    padding: 0.2em;
+    margin: 0.2em;
+    transition: all 0.3s ease-in;
+}
+
+.footer-links img:hover {
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in;
+}
+
+.footer-links img:focus {
+    outline: 0;
+}
+
+footer h6, footer a {
+    margin: 0;
+    font-weight: 300;
+    color: #bbb;
+}
+/* END OF FOOTER STYLE */
 /* END OF COMMON */
 
 /* --------------------------------HOME PAGE-------------------------------- */
-/* INTRO SECTION STYLE*/
+/* INTRO STYLE*/
 #intro {
     /* background-image: url("imgs/bg.png"); */
     background: linear-gradient(-45deg, #92fe9d, #00c9ff);
@@ -107,7 +168,7 @@ navbar li:hover {
     margin: 0;
     padding-top: 100px;
 }
-/* END OF INTRO SECTION STYLE*/
+/* END OF INTRO STYLE*/
 
 /* SKILLS STYLE */
 .skills-title {
@@ -187,6 +248,9 @@ navbar li:hover {
     color: #34e89e;
 }
 /* END OF SKILLS STYLE */
+
+/* PROJECTS STYLE */
+/* END OF PROJECTS STYLE */
 
 /* --------------------------------ABOUT PAGE-------------------------------- */
 /* --------------------------------CONTACT PAGE-------------------------------- */
