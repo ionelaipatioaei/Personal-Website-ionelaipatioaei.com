@@ -250,6 +250,30 @@ footer h6, footer a {
 /* END OF SKILLS STYLE */
 
 /* PROJECTS STYLE */
+.projects-title {
+    text-align: center;
+    font-weight: 300;
+    color: #34e89e;
+    font-size: 2em;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    width: 41%;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.1), -1px -1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0.3em;
+    margin: 2em;
+}
+
+.project-img {
+    width: 100%;
+    border-radius: 0.3em 0.3em 0 0;
+}
 /* END OF PROJECTS STYLE */
 
 /* --------------------------------ABOUT PAGE-------------------------------- */
