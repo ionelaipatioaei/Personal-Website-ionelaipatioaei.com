@@ -12,6 +12,38 @@ html, body {
     margin: auto;
 }
 
+/* COLORS */
+.primary-color-blue {
+    color: #00c9ff;
+}
+
+.primary-color-green {
+    color: #92fe9d;
+}
+
+.secondary-color-blue { /* same as primary blue!!! */
+    color: #00c9ff;
+}
+.secondary-color-pink {
+    color: #ff0099;
+}
+.secondary-color-orange {
+    color: #f5af19;
+}
+.secondary-color-turquoise {
+    color: #49e4ce;
+}
+.secondary-color-purple {
+    color: #8e2de2;
+}
+.secondary-color-green {
+    color: #34e89e;
+}
+
+.main-text-color {
+    color: #aaaaaa;
+}
+
 /* NAVBAR STYLE */
 .nav-fixed {
     position: relative;
@@ -155,7 +187,7 @@ footer h6, footer a {
 /* INTRO STYLE*/
 #intro {
     /* background-image: url("imgs/bg.png"); */
-    background: linear-gradient(-45deg, #92fe9d, #00c9ff);
+    background: linear-gradient(-45deg, #34e89e, #00c9ff);
     background-position: center;
     width: 100%;
     height: 500px;
@@ -259,20 +291,47 @@ footer h6, footer a {
 
 .projects-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
 .project-card {
-    width: 41%;
+    width: 43%;
     box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.1), -1px -1px 10px rgba(0, 0, 0, 0.1);
     border-radius: 0.3em;
-    margin: 2em;
+    margin: 1em;
+    height: 20em;
+    transition: all 0.3s ease-in;
+}
+
+.project-card:hover {
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.05);
 }
 
 .project-img {
     width: 100%;
     border-radius: 0.3em 0.3em 0 0;
+}
+
+.project-title {
+    margin: 0.2em;
+    font-weight: 400;
+    color: #34e89e;
+}
+
+.project-desc {
+    margin: 0.2em;
+    color: #aaa;
+    font-size: 0.9em;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #34e89e;
+}
+
+.project-link:hover {
+    text-decoration: underline;
 }
 /* END OF PROJECTS STYLE */
 
