@@ -18,7 +18,7 @@
             <navbar>
                 <div class="container nav-container">
                     <img class="nav-logo" src="imgs/logo_mini.png" alt="logo">
-                    <img class="mobile-menu" onclick="menu()" src="imgs/mobile-menu.png" alt="logo">
+                    <img class="mobile-menu" onclick="showMenu()" src="imgs/mobile-menu.png" alt="logo">
 
                     <ul>
                         <li><a class="nav-item nav-btn main-text-color nav-btn-home" href="index.html">Home</a></li>
@@ -29,11 +29,16 @@
             </navbar>
         </header>
 
-        <!-- TEST -->
-        <!-- <div class="mobile-nav">
-            <a href="">RESR</a>
-        </div> -->
-        <!-- TEST -->
+        <div class="mobile-nav-background"></div>
+        <div class="mobile-nav">
+            <img class="mobile-menu mobile-nav-close" onclick="hideMenu()" src="imgs/mobile-menu-close.png" alt="close-button">
+
+            <ul>
+                <li><a class="mobile-item main-text-color" href="index.html">Home</a></li>
+                <li><a class="mobile-item main-text-color" href="about.html">About</a></li>
+                <li><a class="mobile-item main-text-color" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
 
         <section id="intro">
             <div class="container intro-container">
