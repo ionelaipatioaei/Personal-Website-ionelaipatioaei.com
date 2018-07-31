@@ -1,3 +1,25 @@
+/* TEST */
+.mobile-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #49e4ce;
+    width: 80%;
+    height: 100%;
+    z-index: 1000;
+    /* transform: translateX(-50%); */
+    transition: all 0.5s ease-in;
+}
+
+.mobile-nav:hover {
+    transform: translateX(-100%);
+    transition: all 0.5s ease-in;
+}
+
+
+
+
+
 /* COMMON */
 html, body {
     margin: 0;
@@ -173,14 +195,20 @@ footer h6, footer a {
     background: linear-gradient(-45deg, #34e89e, #00c9ff);
     background-position: center;
     width: 100%;
-    height: 500px;
+    height: 300px;
 }
 
-.title {
+.intro-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-title {
     text-align: center;
     color: #fff;
-    margin: 0;
-    padding-top: 100px;
+    margin: none;
 }
 /* END OF INTRO STYLE*/
 
@@ -233,6 +261,7 @@ footer h6, footer a {
     display: flex;
     align-items: center;
     margin: 0.8em;
+    justify-content: center;
 }
 
 .skill-img {
@@ -279,13 +308,16 @@ footer h6, footer a {
 
 .project-desc {
     margin: 0.2em;
-    color: #aaa;
+}
+
+.project-text {
+    margin: 0.2em;
+    font-weight: 300;
     font-size: 0.9em;
 }
 
 .project-link {
     text-decoration: none;
-    color: #34e89e;
 }
 
 .project-link:hover {
@@ -297,3 +329,140 @@ footer h6, footer a {
 /* --------------------------------CONTACT PAGE-------------------------------- */
 
 /* --------------------------------MOBILE STYLE-------------------------------- */
+/* PHONES */
+@media (max-width: 768px) {
+    .main-text-color {
+        color: green;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    .skills-title, .projects-title {
+        margin: 0.4em;
+    }
+
+    .skill-card {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .skill-title-group {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .skill-title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .skill-card-desc {
+        width: 100%;
+    }
+
+    .skill-text {
+        font-size: 0.8em;
+    }
+
+    .skill-card-body {
+        width: 100%;
+    }
+
+    .project-card {
+        width: 100%;
+    }
+
+    .project-text {
+        font-size: 0.8em;
+    }
+}
+
+/* TABLETS */
+@media (min-width: 768px) and (max-width: 992px) {
+    .main-text-color {
+        color: red;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .skills-title, .projects-title {
+        margin: 0.4em;
+    }
+
+    .skill-card {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .skill-card-desc {
+        width: 100%;
+    }
+
+    .project-card {
+        width: 100%;
+    }
+}
+
+/* SMALL LAPTOPS */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .main-text-color {
+        color: blue;
+    }
+
+    .container {
+        width: 90%;
+    }
+}
+
+/* LAPTOPS AND DESKTOPS */
+@media (min-width: 1200px) and (max-width: 1900px) {
+    .main-text-color {
+        color: orange;
+    }
+}
+
+/* LARGE DESKTOPS */
+@media (min-width: 1900px) {
+    .main-text-color {
+        color: purple;
+    }
+
+    .container {
+        width: 70%;
+    }
+
+    .project-card {
+        width: 30%;
+    }
+
+}
+
+@media (min-width: 2000px) {
+    .main-text-color {
+        color: yellow;
+    }
+
+    .container {
+        width: 50%;
+    }
+
+    .skill-card-desc {
+        width: 60%;
+    }
+
+    .skill-card-body {
+        width: 40%;
+    }
+
+    .skill-img {
+        width: 70%;
+    }
+
+    .project-card {
+        width: 30%;
+    }
+}
