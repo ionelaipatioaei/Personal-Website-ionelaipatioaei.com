@@ -105,11 +105,27 @@ navbar li:hover {
 }
 
 .nav-btn-home {
-    box-shadow: 8px 8px 10px rgba(0, 201, 255, 0.2) !important;
+    box-shadow: 8px 8px 10px rgba(0, 201, 255, 0.25) !important;
 }
 
 .nav-btn-home:hover {
     box-shadow: 2px 2px 10px rgba(0, 201, 255, 0.3) !important;
+}
+
+.nav-btn-about {
+    box-shadow: 8px 8px 10px rgba(26, 217, 207, 0.25) !important;
+}
+
+.nav-btn-about:hover {
+    box-shadow: 2px 2px 10px rgba(26, 217, 207, 0.3) !important;
+}
+
+.nav-btn-contact {
+    box-shadow: 8px 8px 10px rgba(52, 232, 158, 0.25) !important;
+}
+
+.nav-btn-contact:hover {
+    box-shadow: 2px 2px 10px rgba(52, 232, 158, 0.3) !important;
 }
 
 /* MOBILE NAVBAR */
