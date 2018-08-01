@@ -478,9 +478,13 @@ footer h6, footer a {
 
 /* LAPTOPS AND DESKTOPS */
 @media (min-width: 1200px) and (max-width: 1900px) {
-    .main-text-color {
-        color: orange;
+    /* .container {
+        width: 70%;
     }
+
+    .project-card {
+        width: 30%;
+    } */
 }
 
 /* LARGE DESKTOPS */
@@ -492,7 +496,6 @@ footer h6, footer a {
     .project-card {
         width: 30%;
     }
-
 }
 
 @media (min-width: 2000px) {
