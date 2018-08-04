@@ -163,6 +163,10 @@ navbar li:hover {
     flex-direction: row-reverse;
 }
 
+.mobile-nav-show {
+    transform: translateX(0%);
+}
+
 .mobile-nav-background {
     position: fixed;
     top: 0;

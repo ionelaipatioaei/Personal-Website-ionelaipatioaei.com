@@ -1,5 +1,5 @@
 function showMenu() {
-    document.querySelector(".mobile-nav").style.transform = "translateX(0%)";
+    document.querySelector(".mobile-nav").classList.add("mobile-nav-show");
     document.querySelector(".mobile-nav-background").style.display = "block";
 
     document.querySelector("body").style.overflow = "hidden";
@@ -7,7 +7,7 @@ function showMenu() {
 }
 
 function hideMenu() {
-    document.querySelector(".mobile-nav").style.transform = "translateX(-100%)";
+    document.querySelector(".mobile-nav").classList.remove("mobile-nav-show");
     document.querySelector(".mobile-nav-background").style.display = "none";
 
     document.querySelector("body").style.overflow = "visible";
